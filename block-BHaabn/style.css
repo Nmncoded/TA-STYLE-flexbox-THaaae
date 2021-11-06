@@ -99,9 +99,12 @@ table {
 }
 .col-2-1 {
     margin: 20px 0px;
+    flex: 0 1 30%;
 }
 .col-2-1 img {
     width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
     -o-object-fit: cover;
 }
 
