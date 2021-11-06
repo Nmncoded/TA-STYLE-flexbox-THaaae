@@ -1,13 +1,92 @@
-<!-- 
-1. Create a simple page having a header, main content, and a footer.
+<!DOCTYPE html>
+<html lang="en">
 
-2. Inside the header keep the brand name to the left and all the navigation to the right.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox | block-3 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b2d5c86fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,400&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
 
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="#"><i class="fab fa-pied-piper-alt"></i> My Brand</a>
+        </div>
+        <nav class="header-nav">
+            <a href="#">Home</a><a href="#">Tools</a><a href="#">About</a>
+        </nav>
+    </header>
 
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
 
-6. After the gallery section footer will come.
+    <main>
+        <section>
+            <article class="article1">
+                <div class="div-col-1">
+                    <h1>
+                        this is our first heading. this is our first heading.
+                    </h1>
+                    <p>
+                        Inside the main content take an article section having two columns.
+                        In the first column put a heading and some introductory text of the
+                        article and in the second column take an image.Inside the main content
+                        take an article section having two columns. In the first column put a
+                        heading and some introductory text of the
+                        article and in the second column take an image.
+                    </p>
+                </div>
+                <div class="div-col-2">
+                    <img src="./assets/pic01.jpg" alt="pic01">
+                </div>
+            </article>
 
-7. Use flexbox properties and values to create columns.
- -->
+
+            <article class="article2">
+                <div class="div-col-3">
+                    <img src="./assets/pic01.jpg" alt="pic01">
+                </div>
+                <div class="div-col-3">
+                    <img src="./assets/pic02.jpg" alt="pic01">
+                </div>
+                <div class="div-col-3">
+                    <img src="./assets/pic03.jpg" alt="pic01">
+                </div>
+            </article>
+            <article class="article3">
+                <div class="div-col-4">
+                    <img src="./assets/pic04.jpg" alt="pic01">
+                </div>
+                <div class="div-col-4">
+                    <img src="./assets/pic05.jpg" alt="pic01">
+                </div>
+                <div class="div-col-4">
+                    <img src="./assets/pic06.jpg" alt="pic01">
+                </div>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="clearfix">
+            <div class="footer-div1">
+                <small>&copy; untitled design TEMPLATED images unsplash. </small>
+            </div>
+            <div class="footer-div2">
+                <a href="#">faceebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
