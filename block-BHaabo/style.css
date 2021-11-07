@@ -112,7 +112,8 @@ table {
 .aside {
     width: 320px;
     height: 690px;
-    padding: 20px 30px 30px 30px;
+    flex: 0 2 320px;
+    padding: 20px 30px 30px 40px;
     background-color: #a3caea;
     border-radius: 16px;
     display: flex;
@@ -122,6 +123,7 @@ table {
 
 .aside-div1 {
     height: 275px;
+    flex: 0 1 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -134,8 +136,17 @@ table {
 
 .aside-div1-small {
     font-size: 28px;
+    flex: 0 1 320px;
     color: #222946;
     margin-bottom: 10px;
+}
+.a1 {
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+}
+.a2 i {
+    color: orange;
 }
 .aside-div1-small a {
     color: #222946;
@@ -146,6 +157,7 @@ table {
 .aside-div2-small {
     background-color: #f6f9fc;
     height: 50px;
+    flex: 0 1 320px;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -161,8 +173,9 @@ table {
 /* article */
 .article {
     height: 700px;
-    background-color: #f6f9fc;
-    padding: 20px;
+    flex: 0 1 600px;
+    background-color: #dae3ea;
+    padding:20px 20px 20px 20px;
     border-radius: 16px;
 }
 .article-div1 {
@@ -194,6 +207,7 @@ table {
     height: 45px;
     width: 170px;
     border-radius:12px;
+    box-shadow: 0 4px 12px rgba(48 86 102 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
