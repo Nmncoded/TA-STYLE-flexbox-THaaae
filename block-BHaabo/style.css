@@ -54,6 +54,7 @@ table {
     background-color: #222946;
     height: 70px;
     padding-top: 10px;
+    margin-bottom: 30px;
 }
 .container {
     max-width: 1300px;
@@ -96,15 +97,126 @@ table {
     margin-left: 5px;
 }
 
+/* section */
+.main-flexbox {
+    display: flex;
+    justify-content: space-between;
+}
 
-/* footer */
-/* 
+
+
+
+
+/* aside */
+
+.aside {
+    width: 320px;
+    height: 690px;
+    padding: 20px 30px 30px 30px;
+    background-color: #a3caea;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside-div1 {
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aside-div2 {
+
+}
+
+
+.aside-div1-small {
+    font-size: 28px;
+    color: #222946;
+    margin-bottom: 10px;
+}
+.aside-div1-small a {
+    color: #222946;
+    margin-right: 20px;
+}
+
+
+.aside-div2-small {
+    background-color: #f6f9fc;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #222946;
+}
+.aside-div2-small a {
+    margin-right: 20px;
+    color: #222946;
+}
+
+/* article */
+.article {
+    height: 700px;
+    background-color: #f6f9fc;
+    padding: 20px;
+    border-radius: 16px;
+}
+.article-div1 {
+
+}
+.article-div1 img {
+    height: 380px;
+    border-radius: 16px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    width: 98%;
+}
+.article-div2 {
+
+}
+.article-div2 h1 {
+    color: #222946;
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.article-div2 p {
+    color: #222946;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 840px;
+}
+.article-div3 {
+    background-color: #37b667;
+    height: 45px;
+    width: 170px;
+    border-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    margin-top: 22px;
+}
+.article-div3 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* footer */ 
 .footer {
     background-color: #222946;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-top: 30px;
 }
-
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
 .footer-div1 {
     color: #aaafc2;
     font-size: 20px;
@@ -116,4 +228,4 @@ table {
     font-size: 20px;
     text-decoration: none;
     margin: 0px 15px;
-} */
+} 
