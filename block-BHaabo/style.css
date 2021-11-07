@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom styles */
+/* header */
+.header {
+    background-color: #222946;
+    height: 70px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.container {
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 24px;
+}
+.header .flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo a {
+    color: #aaafc2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.header-logo i {
+    color: aqua;
+}
+.nav-a1 {
+    color: #aaafc2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 35px;
+}
+.nav-a2 {
+    color: #aaafc2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.nav-a3 {
+    color: #aaafc2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* section */
+.main-flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* aside */
+
+.aside {
+    width: 320px;
+    height: 690px;
+    padding: 20px 30px 30px 30px;
+    background-color: #a3caea;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside-div1 {
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aside-div2 {
+
+}
+
+
+.aside-div1-small {
+    font-size: 28px;
+    color: #222946;
+    margin-bottom: 10px;
+}
+.aside-div1-small a {
+    color: #222946;
+    margin-right: 20px;
+}
+
+
+.aside-div2-small {
+    background-color: #f6f9fc;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #222946;
+}
+.aside-div2-small a {
+    margin-right: 20px;
+    color: #222946;
+}
+
+/* article */
+.article {
+    height: 700px;
+    background-color: #f6f9fc;
+    padding: 20px;
+    border-radius: 16px;
+}
+.article-div1 {
+
+}
+.article-div1 img {
+    height: 380px;
+    border-radius: 16px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    width: 98%;
+}
+.article-div2 {
+
+}
+.article-div2 h1 {
+    color: #222946;
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.article-div2 p {
+    color: #222946;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 840px;
+}
+.article-div3 {
+    background-color: #37b667;
+    height: 45px;
+    width: 170px;
+    border-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    margin-top: 22px;
+}
+.article-div3 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* footer */ 
+.footer {
+    background-color: #222946;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+}
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-div1 {
+    color: #aaafc2;
+    font-size: 20px;
+}
+.footer-div2 {
+}
+.footer-div2 a {
+    color: #aaafc2;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 15px;
+} 
